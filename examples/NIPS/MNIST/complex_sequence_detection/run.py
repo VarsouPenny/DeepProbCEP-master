@@ -1,6 +1,6 @@
 import sys
+from examples.NIPS.MNIST.test import test
 
-from examples.NIPS.ActivityDetection.prob_ec_testing import test
 from examples.NIPS.MNIST.mnist import MNIST_Net, test_MNIST, neural_predicate
 
 sys.path.append('../../../')
